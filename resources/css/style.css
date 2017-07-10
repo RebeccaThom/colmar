@@ -1,1 +1,71 @@
-
+body {
+  font-family: "Helvetica", sans-serif;
+}
+header {
+  display: flex;
+  background-color: white;
+  color: black;
+  height: 64px;
+  width: 100%;
+  align-items: center;
+  top: 0;
+  justify-content: space-between;
+}
+.desktop {
+  display: flex;
+  padding-right: 20px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+  font-size: 16px;
+}
+.academy {
+  color: lightgray;
+}
+a {
+  text-decoration: none;
+  color: black;
+  padding-left: 16px;
+}
+.main {
+  max-width: 1260px;
+  margin: 0 auto;
+}
+.container-top {
+  display: flex;
+  flex-direction: row;
+  background-color: lightgray;
+}
+.container-top .image img {
+  width: 60%;
+  padding: 32px 40px 32px 24px;
+}
+.image img {
+  display: block;
+  width: 100%;
+}
+.image {
+  overflow: hidden;
+}
+.banner {
+  display: flex;
+  max-width: 480px;
+  padding: 32px 0;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  color: gray;
+}
+.content h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+.content p {
+  font-size: 24px;
+  font-weight: bold;
+}
