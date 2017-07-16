@@ -40,11 +40,13 @@ a {
 .container {
   max-width: 1260px;
   margin: 0 auto;
+  overflow: hidden;
 }
 .main {
   display: flex;
   flex-direction: row;
   padding-top: 64px;
+  margin-left: 0;
 }
 .image-banner {
   width: 60%;
@@ -59,7 +61,7 @@ a {
   justify-content: center;
   align-content: center;
   color: gray;
-  width: 35%;
+  width: 423px;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
@@ -84,4 +86,77 @@ a {
   margin-top: 3rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+.news {
+  display: flex;
+  flex-direction: row;
+  margin-left: 0;
+}
+.image-news {
+  width: 60%;
+  padding: 2rem 2.5rem 2rem 1.5rem;
+}
+.image-news img {
+  max-width: 100%;
+}
+.image-news h1 {
+  color: Grey;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+}
+.image-news p {
+  color: Grey;
+  font-size: 1rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
+  line-height: 1.2;
+}
+.image-news span {
+  color: Grey;
+  font-size: .8rem;
+  font-weight: bold;
+}
+.articles {
+  display: flex;
+  flex-direction: column;
+  width: 423px;
+  margin-top: 2rem;
+  align-content: center;
+  border-left: solid;
+  border-color: LightGrey;
+  border-width: thin;
+}
+.article {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.image-article {
+  width: 35%;
+  padding: 1rem;
+}
+.image-article img {
+  max-width: 100%;
+}
+.description {
+  align-content: center;
+}
+.description h1 {
+  color: Grey;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-bottom: .5rem;
+}
+.description p {
+  color: Grey;
+  font-weight: bold;
+  font-size: 1rem;
+  padding-bottom: .5rem;
+}
+.description a {
+  color: Blue;
+  font-size: 1rem;
+  padding-left: 0;
 }
