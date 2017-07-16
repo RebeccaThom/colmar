@@ -1,25 +1,30 @@
+html {
+  font-size: 16px;
+}
 body {
   font-family: "Helvetica", sans-serif;
 }
+
 header {
   display: flex;
   background-color: white;
   color: black;
-  height: 64px;
+  height: 4rem;
   width: 100%;
   align-items: center;
   top: 0;
   justify-content: space-between;
+  position: fixed;
 }
 .desktop {
   display: flex;
-  padding-right: 20px;
+  padding-right: 1.25rem;
 }
 .logo {
   display: flex;
   align-items: center;
-  padding-left: 24px;
-  font-size: 16px;
+  padding-left: 1.5rem;
+  font-size: 1rem;
 }
 .academy {
   color: lightgray;
@@ -27,45 +32,56 @@ header {
 a {
   text-decoration: none;
   color: black;
-  padding-left: 16px;
+  padding-left: 1rem;
 }
-.main {
+.banner {
+  background-color: LightGrey;
+}
+.container {
   max-width: 1260px;
   margin: 0 auto;
 }
-.container-top {
+.main {
   display: flex;
   flex-direction: row;
-  background-color: lightgray;
+  padding-top: 64px;
 }
-.container-top .image img {
+.image-banner {
   width: 60%;
-  padding: 32px 40px 32px 24px;
+  padding: 2rem 2.5rem 2rem 1.5rem;
 }
-.image img {
-  display: block;
-  width: 100%;
-}
-.image {
-  overflow: hidden;
-}
-.banner {
-  display: flex;
-  max-width: 480px;
-  padding: 32px 0;
+.image-banner img {
+  max-width: 100%;
 }
 .content {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: auto;
+  align-content: center;
   color: gray;
+  width: 35%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 .content h1 {
-  font-size: 32px;
+  font-size: 3rem;
   font-weight: bold;
+  margin-bottom: 1.5rem;
 }
 .content p {
-  font-size: 24px;
+  font-size: 2rem;
   font-weight: bold;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+}
+.button a {
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  background-color: black;
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
