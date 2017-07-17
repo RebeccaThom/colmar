@@ -4,7 +4,6 @@ html {
 body {
   font-family: "Helvetica", sans-serif;
 }
-
 header {
   display: flex;
   background-color: white;
@@ -213,11 +212,6 @@ a {
   font-size: 1rem;
   padding-top: .5rem;
 }
-.bottom {
-  display: flex;
-  flex-direction: column;
-  margin-left: 0;
-}
 .bottom h1 {
   font-size: 1.5rem;
   padding-top: 2rem;
@@ -271,7 +265,6 @@ video {
   display: flex;
   flex-direction: column;
   width: 423px;
-  align-content: center;
   height: auto;
   justify-content: flex-start;
   margin-left: 0;
@@ -279,8 +272,6 @@ video {
 .bot-right {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  width: 100%;
   align-items: flex-start;
 }
 .image-thesis {
