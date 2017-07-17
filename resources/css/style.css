@@ -112,6 +112,7 @@ a {
   font-weight: bold;
   padding-bottom: 2rem;
   line-height: 1.2;
+  font-style: italic;
 }
 .image-news span {
   color: Grey;
@@ -136,9 +137,11 @@ a {
 .image-article {
   width: 35%;
   padding: 1rem;
+  height: auto;
 }
 .image-article img {
   max-width: 100%;
+  height: auto;
 }
 .description {
   align-content: center;
@@ -209,4 +212,109 @@ a {
   color: Grey;
   font-size: 1rem;
   padding-top: .5rem;
+}
+.bottom {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+}
+.bottom h1 {
+  font-size: 1.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: Grey;
+  text-align: center;
+  font-weight: bold;
+}
+.thesis {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 0;
+}
+.bottom-left {
+  display: flex;
+  flex-direction: column;
+  margin-right: 0;
+}
+.video {
+  width: 60%;
+  height: auto;
+  padding-left: 1.5rem;
+  padding-right: 1rem;
+  padding-bottom: 1.5rem;
+  margin-top: 0;
+  margin-left: 0;
+}
+video {
+  max-width: 100%;
+}
+.exhibit {
+  width: 60%;
+  padding-left: 1.5rem;
+}
+.exhibit h2 {
+  font-size: 1.5rem;
+  color: Grey;
+  padding-bottom: 1.5rem;
+  font-weight: bold;
+}
+.exhibit p {
+  font-size: 1rem;
+  color: Grey;
+  line-height: 1.2;
+  font-weight: bold;
+  padding-bottom: 2rem;
+  font-style: italic;
+}
+.bottom-right {
+  display: flex;
+  flex-direction: column;
+  width: 423px;
+  align-content: center;
+  height: auto;
+  justify-content: flex-start;
+  margin-left: 0;
+}
+.bot-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  align-items: flex-start;
+}
+.image-thesis {
+  width: 35%;
+  padding: 1rem;
+}
+.image-thesis img {
+  max-width: 100%;
+}
+.fisma {
+  align-content: center;
+}
+.fisma h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: Grey;
+}
+.fisma p {
+  color: Grey;
+  font-size: 1rem;
+}
+footer {
+  display: block;
+  align-content: center;
+  padding-left: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+  color: Grey;
+  border-top: solid;
+  border-width: thin;
+  border-color: LightGrey;
+}
+.footer a {
+  float: right;
+  margin-right: 1rem;
+  color: Grey;
 }
