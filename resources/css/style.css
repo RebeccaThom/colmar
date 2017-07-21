@@ -316,6 +316,10 @@ img {
   .bottom-middle {
     background-color: White;
     padding-right: 1rem;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: thin;
+    border-color: LightGrey;
   }
   .bottom-mid {
     display: flex;
