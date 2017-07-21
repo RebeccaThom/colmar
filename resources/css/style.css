@@ -4,6 +4,13 @@ html {
 body {
   font-family: "Helvetica", sans-serif;
 }
+/*--->>> Header <<<---*/
+
+@media only screen and (min-width: 560px) {
+  .mobile {
+    display: none;
+  }
+}
 header {
   display: flex;
   background-color: white;
@@ -33,6 +40,26 @@ a {
   color: black;
   padding-left: 1rem;
 }
+@media only screen and (max-width: 560px) {
+  header {
+    display: none;
+  }
+  .mobile {
+    display: flex;
+    background-color: white;
+    height: 4rem;
+    width: 100%;
+    align-items: center;
+    top: 0;
+    justify-content: space-between;
+    position: fixed;
+  }
+}
+
+/*--->>> Main Content <<<---*/
+/*--->>> Section Banner <<<---*/
+
+
 .banner {
   background-color: LightGrey;
 }
@@ -86,6 +113,33 @@ a {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+@media only screen and (max-width: 560px) {
+  .image-banner {
+    display: none;
+  }
+  .content h1 {
+    font-size: 2rem;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .content p {
+    font-size: 1.5rem;
+    padding-top: 0;
+    margin-top: 0;
+    padding-left: 1rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .button {
+    margin-top: 0;
+    padding: 0 1rem 1rem 1rem;
+  }
+}
+
+/*--->>> Section News <<<---*/
+
 .news {
   display: flex;
   flex-direction: row;
@@ -162,6 +216,43 @@ img {
   font-size: 1rem;
   padding-left: 0;
 }
+@media only screen and (min-width: 560px) {
+  .articles-mobile {
+    display: none;
+  }
+}
+
+/*--->>> Mobile <<<---*/
+
+@media only screen and (max-width: 560px) {
+  .news {
+    display: none;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .articles-mobile {
+    margin: 1rem;
+  }
+  .article-mobile {
+    max-width: 480px;
+    align-items: center;
+    padding-bottom: 1rem;
+  }
+  .article-mobile img {
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 1rem;
+  }
+  .description {
+    padding-left: 1rem;
+  }
+}
+
+/*--->>> Section Bottom Middle <<<---*/
+
 .bottom-middle {
   background-color: LightGrey;
   display: flex;
@@ -212,6 +303,37 @@ img {
   font-size: 1rem;
   padding-top: .5rem;
 }
+
+/*--->>> Mobile <<<---*/
+
+@media only screen and (max-width: 560px) {
+  .image-course {
+    display: none;
+  }
+  .course p {
+    display: none;
+  }
+  .bottom-middle {
+    background-color: White;
+    padding-right: 1rem;
+  }
+  .bottom-mid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    align-items: center;
+  }
+  .sub-container {
+    width: 480px;
+    background-color: Grey;
+  }
+  .course h2 {
+    color: White;
+  }
+}
+/*--->>> Section Bottom <<<---*/
+
 .bottom {
   display: flex;
   flex-direction: column;
@@ -288,6 +410,27 @@ video {
   color: Grey;
   font-size: 1rem;
 }
+
+/*--->>> Mobile Bottom <<<---*/
+
+@media only screen and (max-width: 560px) {
+  .exhibit {
+    display: none;
+  }
+  .bottom-right {
+    display: none;
+  }
+  .video {
+    padding-bottom: 1.5rem;
+  }
+  .bottom-left {
+    display: flex;
+    width: 100%;
+  }
+}
+
+/*--->>> Footer <<<---*/
+
 footer {
   display: block;
   align-content: center;
@@ -303,4 +446,23 @@ footer {
   float: right;
   margin-right: 1rem;
   color: Grey;
+}
+
+/*--->>> Mobile <---*/
+
+@media only screen and (max-width: 560px){
+  footer {
+    padding: 0;
+    margin: 0;
+    border: none;
+    justify-content: center;
+  }
+  .footer a {
+    display: none;
+  }
+  .footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+  }
 }
