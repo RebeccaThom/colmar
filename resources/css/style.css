@@ -13,8 +13,8 @@ body {
 }
 header {
   display: flex;
-  background-color: white;
-  color: black;
+  background-color: #ffffff;
+  color: #000000;
   height: 4rem;
   width: 100%;
   align-items: center;
@@ -33,12 +33,15 @@ header {
   font-size: 1rem;
 }
 .academy {
-  color: lightgray;
+  color: #d3d3d3;
 }
 a {
   text-decoration: none;
-  color: black;
+  color: #000000;
   padding-left: 1rem;
+}
+a:hover {
+  color: #b0c4de;
 }
 @media only screen and (max-width: 560px) {
   header {
@@ -46,7 +49,7 @@ a {
   }
   .mobile {
     display: flex;
-    background-color: white;
+    background-color: #ffffff;
     height: 4rem;
     width: 100%;
     align-items: center;
@@ -57,11 +60,11 @@ a {
 }
 
 /*--->>> Main Content <<<---*/
+
 /*--->>> Section Banner <<<---*/
 
-
 .banner {
-  background-color: LightGrey;
+  background-color: #d3d3d3;
 }
 .container {
   max-width: 1260px;
@@ -86,7 +89,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  color: gray;
+  color: #808080;
   width: 423px;
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -105,13 +108,16 @@ a {
 .button a {
   display: flex;
   justify-content: center;
-  color: white;
+  color: #ffffff;
   text-align: center;
-  background-color: black;
+  background-color: #696969;
   font-size: 1.5rem;
   margin-top: 3rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+.button a:hover {
+  background-color: #b0c4de;
 }
 @media only screen and (max-width: 560px) {
   .image-banner {
@@ -153,14 +159,14 @@ a {
   max-width: 100%;
 }
 .image-news h1 {
-  color: Grey;
+  color: #808080;
   font-size: 2.5rem;
   font-weight: bold;
   padding-top: 2rem;
   padding-bottom: 1.5rem;
 }
 .image-news p {
-  color: Grey;
+  color: #808080;
   font-size: 1rem;
   font-weight: bold;
   padding-bottom: 2rem;
@@ -168,7 +174,7 @@ a {
   font-style: italic;
 }
 .image-news span {
-  color: Grey;
+  color: #808080;
   font-size: .8rem;
   font-weight: bold;
 }
@@ -179,7 +185,7 @@ a {
   margin-top: 2rem;
   align-content: center;
   border-left: solid;
-  border-color: LightGrey;
+  border-color: #d3d3d3;
   border-width: thin;
 }
 .article {
@@ -188,7 +194,7 @@ a {
   align-items: center;
 }
 .article:hover {
-  background-color: LightGrey;
+  background-color: #d3d3d3;
 }
 .article img {
   width: 35%;
@@ -203,19 +209,19 @@ img {
   align-content: center;
 }
 .description h1 {
-  color: Grey;
+  color: #808080;
   font-weight: bold;
   font-size: 1.5rem;
   padding-bottom: .5rem;
 }
 .description p {
-  color: Grey;
+  color: #808080;
   font-weight: bold;
   font-size: 1rem;
   padding-bottom: .5rem;
 }
 .description a {
-  color: Blue;
+  color: #4682b4;
   font-size: 1rem;
   padding-left: 0;
 }
@@ -257,7 +263,7 @@ img {
 /*--->>> Section Bottom Middle <<<---*/
 
 .bottom-middle {
-  background-color: LightGrey;
+  background-color: #d3d3d3;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -270,7 +276,7 @@ img {
   text-align: center;
   font-size: 2rem;
   font-weight: bold;
-  color: Grey;
+  color: #808080;
 }
 .bottom-mid {
   width: 100%;
@@ -287,7 +293,7 @@ img {
   flex-wrap: wrap;
   height: auto;
   width: 26%;
-  background-color: White;
+  background-color: #ffffff;
   margin-bottom: 1rem;
   margin-right: 1rem;
   margin-left: 1rem;
@@ -295,8 +301,8 @@ img {
 }
 .sub-container:hover {
   border-style: solid;
-  border-color: Blue;
-  border-width: thin;
+  border-color: #b0c4de;
+  border-width: .5rem;
 }
 .image-course {
   width: 100%;
@@ -312,12 +318,12 @@ img {
   padding-bottom: 1.5rem;
 }
 .course h2 {
-  color: Grey;
+  color: #808080;
   font-weight: bold;
   font-size: 1.5rem;
 }
 .course p {
-  color: Grey;
+  color: #808080;
   font-size: 1rem;
   padding-top: .5rem;
 }
@@ -336,11 +342,11 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: White;
+    background-color: #ffffff;
     border-top: solid;
     border-bottom: solid;
     border-width: thin;
-    border-color: LightGrey;
+    border-color: #d3d3d3;
     margin: 0;
     padding: 0;
   }
@@ -349,11 +355,11 @@ img {
     padding: 0;
   }
   .sub-container {
-    background-color: Grey;
+    background-color: #808080;
     width: 100%;
   }
   .course h2 {
-    color: White;
+    color: #ffffff;
   }
 }
 /*--->>> Section Bottom <<<---*/
@@ -371,7 +377,7 @@ img {
   font-size: 1.5rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  color: Grey;
+  color: #808080;
 }
 .thesis {
   display: flex;
@@ -394,14 +400,14 @@ video {
 }
 .exhibit h2 {
   font-size: 1.5rem;
-  color: Grey;
+  color: #808080;
   padding-bottom: 1.5rem;
   padding-top: 1.5rem;
   font-weight: bold;
 }
 .exhibit p {
   font-size: 1rem;
-  color: Grey;
+  color: #808080;
   line-height: 1.2;
   font-weight: bold;
   padding-bottom: 2rem;
@@ -419,7 +425,7 @@ video {
   align-items: center;
 }
 .bot-right:hover {
-  background-color: LightGrey;
+  background-color: #d3d3d3;
 }
 .bot-right img {
   width: 35%;
@@ -432,11 +438,11 @@ video {
 .fisma h2 {
   font-size: 1.5rem;
   font-weight: bold;
-  color: Grey;
+  color: #808080;
   padding-bottom: 1rem;
 }
 .fisma p {
-  color: Grey;
+  color: #808080;
   font-size: 1rem;
 }
 
@@ -474,15 +480,18 @@ footer {
   padding-left: 1.5rem;
   padding-top: 1rem;
   padding-bottom: 4rem;
-  color: Grey;
+  color: #808080;
   border-top: solid;
   border-width: thin;
-  border-color: LightGrey;
+  border-color: #d3d3d3;
 }
 .footer a {
   float: right;
   margin-right: 1rem;
-  color: Grey;
+  color: #808080;
+}
+.footer a:hover {
+  color: #b0c4de;
 }
 
 /*--->>> Mobile <---*/
