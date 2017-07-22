@@ -187,6 +187,9 @@ a {
   flex-direction: row;
   align-items: center;
 }
+.article:hover {
+  background-color: LightGrey;
+}
 .article img {
   width: 35%;
   padding: 1rem;
@@ -289,6 +292,11 @@ img {
   margin-right: 1rem;
   margin-left: 1rem;
   padding-left: 0;
+}
+.sub-container:hover {
+  border-style: solid;
+  border-color: Blue;
+  border-width: thin;
 }
 .image-course {
   width: 100%;
@@ -409,6 +417,9 @@ video {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+.bot-right:hover {
+  background-color: LightGrey;
 }
 .bot-right img {
   width: 35%;
