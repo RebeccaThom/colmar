@@ -369,6 +369,8 @@ img {
   align-content: center;
   width: 100%;
   height: auto;
+  margin-left: 0;
+  padding-left: 1.5rem;
 }
 .bottom-left {
   display: block;
