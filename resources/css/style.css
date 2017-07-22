@@ -324,23 +324,25 @@ img {
     display: none;
   }
   .bottom-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: White;
-    padding-right: 1rem;
     border-top: solid;
     border-bottom: solid;
     border-width: thin;
     border-color: LightGrey;
+    margin: 0;
+    padding: 0;
   }
   .bottom-mid {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    max-width: 100%;
-    align-items: center;
+    max-width: 480px;
+    padding: 0;
   }
   .sub-container {
-    width: 480px;
     background-color: Grey;
+    width: 100%;
   }
   .course h2 {
     color: White;
@@ -436,8 +438,16 @@ video {
   .bottom-right {
     display: none;
   }
+  .thesis {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
   .video {
     padding-bottom: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
   .bottom-left {
     display: flex;
